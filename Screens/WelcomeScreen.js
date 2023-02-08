@@ -21,7 +21,7 @@ export default WelcomeScreen = ({navigation}) => {
         to hear your experience with us!
       </Text>
 
-            <Pressable onPress={() => navigation.goBack() } style={styles.button}>
+      <Pressable onPress={() => navigation.navigate('Menu') } style={styles.button}>
         <Text style={styles.buttonText}>Go Back!</Text>
       </Pressable>
     </ScrollView>
